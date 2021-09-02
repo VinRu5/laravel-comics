@@ -4,6 +4,6 @@
 
 @section('content')
 
-<div>Contenuto Home Page</div>
+<div>Contenuto Product</div>
 
 @endsection
