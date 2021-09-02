@@ -14,25 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home',
-        [
-            'navList' => [
-                'CHARACTERS',
-                'COMICS',
-                'MOVIES',
-                'TV',
-                'GAMES',
-                'COLLECTIBLES',
-                'VIDEOS',
-                'FANS',
-                'NEWS',
-                'SHOP',
-            ]
-        ]
-    );
+    return view('home');
 })->name('homepage');
 
 Route::get('/product', function () {
     return view('product');
 })->name('product');
-

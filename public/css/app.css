@@ -53,6 +53,81 @@
      object-position: top;
 }
 
+.footer-content {
+  background-image: url("/images/footer-bg.jpg");
+}
+
+.footer-content .container {
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content .container .footer-img {
+  height: 100%;
+  flex-basis: 50%;
+  background-image: url("/images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.footer-content .container .footer-list {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 48px 0;
+}
+
+.footer-content .container .footer-list ul {
+  flex-grow: 1;
+}
+
+.footer-content .container .footer-list ul li {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.footer-content .container .footer-list ul li:first-child {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-content .container .footer-list ul li a {
+  color: #797979;
+  text-decoration: none;
+}
+
+.footer-topbar {
+  background-color: #0282f9;
+}
+
+.footer-topbar .buy {
+  display: flex;
+  justify-content: space-around;
+  padding: 48px 0;
+}
+
+.footer-topbar .buy .buy-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-topbar .buy .buy-item .img-container {
+  height: 50px;
+}
+
+.footer-topbar .buy .buy-item .img-container img {
+  height: 100%;
+}
+
+.footer-topbar .buy .buy-item .buy-text {
+  color: #fff;
+  margin-left: 12px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -67,5 +142,17 @@
 
 ul {
   list-style: none;
+}
+
+main {
+  background: #1c1c1c;
+  color: #fff;
+  font-size: 12px;
+  padding: 50px 0;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
