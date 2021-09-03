@@ -3,7 +3,10 @@
 @section('title', 'Home Page')
 
 @section('content')
+<div class="jumbotron-dc">
+    <img src="/images/jumbotron.jpg" alt="jumbotron">
+</div>
 
-<div>Contenuto Product</div>
+@dump($comics[$comicIndex])
 
 @endsection

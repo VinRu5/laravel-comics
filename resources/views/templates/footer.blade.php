@@ -1,6 +1,9 @@
 <section class="footer-content">
-    <div class="container">
+    <div class="container footer-inner">
         <div class="footer-list">
+            @php
+            $footerList = config('footerList');
+            @endphp
 
             @foreach ($footerList as $nameSection => $footerSections)
             <ul>

@@ -13,21 +13,7 @@
 <body>
 
     <header>
-        @include('templates.header',
-        [
-        'navList' => [
-        'CHARACTERS',
-        'COMICS',
-        'MOVIES',
-        'TV',
-        'GAMES',
-        'COLLECTIBLES',
-        'VIDEOS',
-        'FANS',
-        'NEWS',
-        'SHOP',
-        ]
-        ])
+        @include('templates.header')
     </header>
 
     <main>
@@ -35,45 +21,7 @@
     </main>
 
     <footer>
-        @include('templates.footer',
-        [
-        'footerList' => [
-        'DC COMICS' => [
-        'Characters',
-        'Comics',
-        'Movies',
-        'TV',
-        'Games',
-        'Videos',
-        'News',
-        ],
-        'SHOP' => [
-        'Shop DC',
-        'Shop DC Collectibles',
-        ],
-        'DC' => [
-        'DC',
-        'Term Of Use',
-        'Privacy policy(New)',
-        'Ad Choices',
-        'Advertising',
-        'Jobs',
-        'Subscriptions',
-        'Talent Workshops',
-        'CPSC Certificates',
-        'Ratings',
-        'Shop Help',
-        'Concatc Us'
-        ],
-        'SITES' => [
-        'DC',
-        'MAD Magazine',
-        'DC Kids',
-        'DC Universe',
-        'DC Power Visa',
-        ]
-        ]
-        ])
+        @include('templates.footer')
 
     </footer>
 </body>

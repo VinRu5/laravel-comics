@@ -5,9 +5,15 @@
 
     <nav>
         <ul>
+
+            @php
+            $navList = config('navList');
+            @endphp
+            
             @foreach ($navList as $navItem)
-      
-            <li><a href="#">{{ $navItem }}</a></li> <!--da sistemare-->
+
+            <li><a href="#">{{ $navItem }}</a></li>
+            <!--da sistemare-->
             @endforeach
         </ul>
     </nav>
@@ -15,7 +21,4 @@
         <input type="text" placeholder="Search">
         <i class="fas fa-search"></i>
     </div>
-</div>
-<div class="jumbotron">
-    <img src="/images/jumbotron.jpg" alt="jumbotron">
 </div>
