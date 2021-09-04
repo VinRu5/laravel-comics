@@ -10984,7 +10984,7 @@ a.text-dark:focus {
 
 .jumbotron-dc {
   width: 100%;
-  height: 200px;
+  height: 350px;
 }
 
 .jumbotron-dc img {
@@ -11071,13 +11071,115 @@ a.text-dark:focus {
   margin-left: 12px;
 }
 
-ul {
-  list-style: none;
+.banner-blue {
+  background-color: #0282f9;
+  height: 70px;
 }
 
-main {
-  background: #1c1c1c;
+.banner-blue .container-comics {
+  position: relative;
+  height: 100%;
+}
+
+.banner-blue .container-comics .img-comics {
+  max-width: 150px;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.banner-blue .container-comics .img-comics img {
+  width: 100%;
+}
+
+.comics-info {
+  border-bottom: 1px solid #797979;
+  padding: 60px 0;
+}
+
+.comics-info h2 {
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.comics-info .green-container {
+  display: flex;
   color: #fff;
-  padding: 50px 0;
+  font-weight: 600;
+}
+
+.comics-info .green-container .green-left {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comics-info .green-container .green-box {
+  padding: 12px 24px;
+  background-color: #55ba59;
+  border: 1px solid #333;
+}
+
+.comics-info .green-container .green-box-inner {
+  display: flex;
+}
+
+.comics-info .green-container .green-box-inner div {
+  padding: 0 5px;
+}
+
+.comics-info .text-description {
+  color: #797979;
+  font-size: 14px;
+  padding-top: 24px;
+}
+
+.comics-info .text-adv {
+  text-align: right;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+}
+
+.comics-info .img-adv {
+  max-width: 300px;
+}
+
+.comics-info .img-adv img {
+  width: 100%;
+}
+
+.comics-details {
+  background-color: #f6f6f6;
+  padding: 24px 0;
+  color: #333;
+}
+
+.comics-details h6.box-info {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.comics-details .box-info {
+  border-bottom: 1px solid #797979;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.comics-details .box-info div:last-child {
+  color: #4fa9d9;
+}
+
+.comics-details .box-info div:first-child {
+  flex-basis: 70%;
+}
+
+ul {
+  list-style: none;
 }
 

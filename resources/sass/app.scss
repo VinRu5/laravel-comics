@@ -12,14 +12,12 @@
 @import "colors";
 @import "header";
 @import "footer";
+@import "comics";
 
 ul {
     list-style: none;
 }
 
 main {
-    background: $color-black;
-    color: $color-white;
-    padding: 50px 0;
-
+    // background: $color-black;
 }
