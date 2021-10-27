@@ -11096,6 +11096,7 @@ a.text-dark:focus {
 .comics-info {
   border-bottom: 1px solid #797979;
   padding: 60px 0;
+  background-color: #fff;
 }
 
 .comics-info h2 {
@@ -11179,7 +11180,66 @@ a.text-dark:focus {
   flex-basis: 70%;
 }
 
+.comics {
+  position: relative;
+}
+
+.comics .current-series {
+  background-color: #0282f9;
+  color: #fff;
+  padding: 3px 12px;
+  position: absolute;
+  top: -18px;
+  left: -3px;
+}
+
+.comics .button-blue {
+  background-color: #0282f9;
+  color: #fff;
+  padding: 3px 12px;
+  border: 1px solid #0282f9;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.comic {
+  margin-top: 32px;
+}
+
+.comic-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.comic-inner .img-container {
+  width: 100%;
+  height: 130px;
+}
+
+.comic-inner .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.comic-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+}
+
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: #1c1c1c;
 }
 

@@ -13,11 +13,16 @@
 @import "header";
 @import "footer";
 @import "comics";
+@import "home";
 
 ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 main {
-    // background: $color-black;
+    background: $color-black;
 }
